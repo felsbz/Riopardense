@@ -112,6 +112,30 @@ and open the template in the editor.
                         <td>Óbito:</td>
                         <td  align='center'>" . $rows_resultado['obito_saude'] . "</td>
                     </tr>
+                    <tr>
+                        <th>Materiais Hospitalares</th>
+                        <th>Unidades</th>
+                    </tr>
+                    <tr>
+                        <td>Avental:</td>
+                         <td  align='center'>" . $rows_resultado['avental'] . "</td>
+                    </tr>
+                    <tr>
+                        <td>Botas:</td>
+                        <td  align='center'>" . $rows_resultado['botas'] . "</td> 
+                    </tr>
+                    <tr>
+                        <td>Luvas:</td>
+                        <td  align='center'>" . $rows_resultado['luvas'] . "</td>
+                    </tr>
+                    <tr>
+                        <td>Máscaras:</td>
+                        <td  align='center'>" . $rows_resultado['mascaras'] . "</td> 
+                    </tr>
+                    <tr>
+                        <td>Proteção Ocular:</td>
+                        <td  align='center'>" . $rows_resultado['protecao_ocular'] . "</td>           
+                    </tr>
                 </tbody>
             </table><br><br>";
 
