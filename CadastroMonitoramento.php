@@ -115,7 +115,31 @@ and open the template in the editor.
                         <td>Óbito:</td>
                         <td> <input name="prof_saude_obito" type="number" min="0" size="11" maxlength="10" required></td>
                     </tr>
-
+                    
+                    <tr>
+                        <th>Materiais Hospitalares</th>
+                        <th>Unidades</th>
+                    </tr>
+                    <tr>
+                        <td>Avental:</td>
+                        <td> <input name="avental" type="number" min="0" size="11" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td>Botas:</td>
+                        <td> <input name="botas" type="number" min="0" size="11" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td>Luvas:</td>
+                        <td> <input name="luvas" type="number" min="0" size="11" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td>Máscaras:</td>
+                        <td> <input name="mascaras" type="number" min="0" size="11" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td>Proteção Ocular:</td>
+                        <td> <input name="ocular" type="number" min="0" size="11" maxlength="10" required></td>
+                    </tr>
                 </tbody>
             </table>
 
