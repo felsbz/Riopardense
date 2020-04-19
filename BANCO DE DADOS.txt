@@ -1,0 +1,12 @@
+>>> Banco de Dados MARIADB <<<
+
+	
+CREATE DATABASE painelmunicipio;
+
+CREATE TABLE `painelmunicipio`.`fichas` ( `id` INT NOT NULL AUTO_INCREMENT , `cidade` TEXT NOT NULL , `data` DATE NOT NULL , `isolamento` INT NOT NULL , `notificacao` INT NOT NULL , `pacientes` INT NOT NULL , `pacientes_outros` INT NOT NULL , `internados` INT NOT NULL , `alta_isolamento` INT NOT NULL , `aguardando` INT NOT NULL , `confirmados` INT NOT NULL , `negativos` INT NOT NULL , `obito` INT NOT NULL , `notificacao_saude` INT NOT NULL , `aguardando_saude` INT NOT NULL , `negativos_saude` INT NOT NULL , `positivo_saude` INT NOT NULL , `obito_saude` INT NOT NULL , PRIMARY KEY (`id`)); 
+
+ALTER TABLE `fichas` ADD `leitos` INT NOT NULL AFTER `obito_saude`; 
+
+ALTER TABLE `fichas` ADD `leitos_uti` INT NOT NULL AFTER `leitos`, ADD `internados_uti` INT NOT NULL AFTER `leitos_uti`, ADD `fila_internacao` INT NOT NULL AFTER `internados_uti`, ADD `regiao_adm` VARCHAR(25) NOT NULL AFTER `fila_internacao`; 
+
+ALTER TABLE `fichas` ADD `avental` INT NOT NULL AFTER `regiao_adm`, ADD `botas` INT NOT NULL AFTER `avental`, ADD `luvas` INT NOT NULL AFTER `botas`, ADD `mascaras` INT NOT NULL AFTER `luvas`, ADD `protecao_ocular` INT NOT NULL AFTER `mascaras`;
