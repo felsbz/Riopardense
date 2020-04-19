@@ -40,7 +40,10 @@ and open the template in the editor.
                 </tr> 
                 <tr>
                     <th><a href="RelatorioRegiaoAdm.php">>> Relatório das Regiões Administrativas <<</a></th>
-                </tr> 
+                </tr>
+                <tr>
+                    <th><a href="RelatorioRegioesMateriais.php">>> Relatório de Materiais Hospitalares <<</a></th>
+                </tr>
             </thead>
         </table>
         <br><a href='index.php'>Voltar</a>
